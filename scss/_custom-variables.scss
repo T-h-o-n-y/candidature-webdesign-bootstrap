@@ -1,0 +1,14 @@
+// scss/_custom-variables.scss
+
+// Import Functions and Variables Bootstrap
+@import "bootstrap/scss/functions"; 
+@import "bootstrap/scss/variables"; 
+
+// Personalization
+
+
+// Import rest of Bootstrap
+@import "bootstrap/scss/variables-dark"; 
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";

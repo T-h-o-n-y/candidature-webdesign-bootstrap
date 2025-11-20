@@ -7,6 +7,105 @@
     <title>candidature-webdesign-bootstrap</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar bg-primary" id="mainNav">
+        <div class="container pb-2 border-bottom align-items-center">
+            <a class="navbar-brand fw-bold" href="header">
+                <img src="assets/img/logos/odoo-white.svg" alt="Logo Odoo" class="me-3 mb-1" style="height: 25px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mx-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link text-white" href="header">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Tools</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Feature</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Technology</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Install</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">FAQ</a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item me-lg-3"><a class="nav-link text-white text-center" href="#">Sign in</a></li>
+                    <li class="nav-item">
+                        <a class="btn btn-sm bg-white" href="#">
+                            <i class="bi-basket me-1"></i> Buy now
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="hero-section pt-5 pb-5 bg-primary">
+        <div class="container pt-5">
+            <div class="row align-items-center justify-content-between">
+                
+                <div class="col-lg-5 col-md-12 text-white">
+                    <h1 class="display-3 fw-bold mb-4">Development done right</h1>
+                    <p class="lead mb-5">Build a beautiful, modern website with flexible components built from scratch.</p>
+                    <a class="btn btn-light btn-lg px-4 py-3 mb-5" href="#">Get started <i class="bi bi-plus ms-2"></i></a>
+
+                    <div class="trusted-by-section d-flex align-items-center">
+                        <small class="d-block me-3">Trusted by:</small>
+                        <div class="d-flex align-items-center logo-stack">
+                            <img src="assets/img/logos/google-white.svg" alt="Logo Google" class="me-3" style="height: 25px;">
+                            <img src="assets/img/logos/spotify-white.svg" alt="Logo Spotify" class="me-3" style="height: 25px;">
+                            <img src="assets/img/logos/airbnb-white.svg" alt="Logo Airbnb" class="me-3" style="height: 25px;">
+                            <img src="assets/img/logos/paypal-white.svg" alt="Logo PayPal" class="me-3" style="height: 25px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 mt-5 mt-lg-0">
+                    <div class="card p-4 shadow-lg custom-card-block pb-5">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h6 class="mb-0 text-body-secondary">Manage cards</h6>
+                            <a href="#" class="btn btn-sm btn-light btn-outline-dark">Add new</a>
+                        </div>
+                        
+                        <div class="p-4 pb-5 text-white mb-4 card-design rounded-3">
+                             <div class="d-flex justify-content-between">
+                                <img src="assets/img/logos/mastercard.svg" alt="Logo Master Card" class="me-3" style="height: 25px;">
+                                <span class="badge bg-success float-end">Active</span>
+                             </div>
+                            <small class="d-block mt-4 mb-1 text-uppercase">Card Number</small>
+                            <h4 class="fw-bold mb-4">4358 - 7421 - 9256 - 6682</h4>
+                            <div class="d-flex small">
+                                <div class="col-lg-6">
+                                    <small class="d-block text-uppercase">Name</small>
+                                    <span class="fw-bold">John Snow</span>
+                                </div>
+                                <div class="col-lg-6">
+                                    <small class="d-block text-uppercase">Expiry Date</small>
+                                    <span class="fw-bold">11/23</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="transaction-item mb-2">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0 fw-bold">Starbucks</p>
+                                <span class="fw-bold text-dark">$5.50 USD</span>
+                            </div>
+                            <span class="small text-body-secondary">Pending - San Francisco, United States</span>
+        
+                        <hr class="my-2">
+                        <div class="transaction-item mb-3">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0 fw-bold">Nike Sports</p>
+                                 <span class="fw-bold text-dark">$129.00 USD</span>
+                            </div>
+                            <span class="small text-body-secondary">Pending - Lisbon, Portugal</span>
+                        </div>
+                        <hr class="my-2">
+                        <a href="#" class="small mt-2">View all</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

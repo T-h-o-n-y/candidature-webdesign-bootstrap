@@ -2,30 +2,30 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../scss/main.scss';
 import * as bootstrap from 'bootstrap';
 
+// Swiper Awards
+
 document.addEventListener('DOMContentLoaded', () => {
 
-  // Initialisation de Swiper
   var swiper = new Swiper(".myAwardSwiper", {
-    slidesPerView: 1,      // Mobile : 1 carte visible
-    spaceBetween: 20,      // Espace entre les cartes
-    grabCursor: true,      // Curseur en forme de main
+    slidesPerView: 1,
+    spaceBetween: 20,
+    grabCursor: true,
     
-    // Configuration de la pagination (les points)
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
     
-    // Points de rupture (Breakpoints) pour le responsive
+
     breakpoints: {
-      // Quand l'écran est >= 768px (Tablette)
+
       768: {             
         slidesPerView: 2,
         spaceBetween: 30,
       },
-      // Quand l'écran est >= 992px (Desktop / LG)
+
       992: {             
-        slidesPerView: 4, // On affiche 5 cartes comme sur ta grille d'origine
+        slidesPerView: 4,
         spaceBetween: 30,
       },
     },
@@ -33,4 +33,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+// Scroll Nav Bar
+
+const SCROLL_THRESHOLD = 100;
+const mainNav = document.getElementById('mainNav');
+
+if (mainNav) {
+    const updateNavOnScroll = () => {
+        if (window.scrollY > SCROLL_THRESHOLD) {
+            mainNav.classList.add('nav-scroll-shadow');
+        } else {
+            mainNav.classList.remove('nav-scroll-shadow');
+        }
+    };
+    updateNavOnScroll();
+    window.addEventListener('scroll', updateNavOnScroll);
+}
 

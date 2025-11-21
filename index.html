@@ -11,9 +11,9 @@
   <body>
 
     <!-- --- Navbar --- -->
-    <nav class="navbar navbar-expand-lg fixed-top custom-navbar bg-primary" id="mainNav">
-        <div class="container pb-2 border-bottom align-items-center">
-            <a class="navbar-brand fw-bold" href="header">
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar border-bottom" id="mainNav">
+        <div class="container pb-2 align-items-center">
+            <a href="#hero" class="navbar-brand fw-bold">
                 <img src="assets/img/logos/odoo-white.svg" alt="Logo Odoo" class="me-3 mb-1" style="height: 25px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,18 +22,18 @@
 
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav mx-auto align-items-center">
-                    <li class="nav-item"><a class="nav-link text-white" href="header">Home</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Tools</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Feature</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Technology</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Install</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Awards</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">FAQ</a></li>
+                    <li class="nav-item me-0 me-lg-3"><a class="nav-link text-white" href="#hero">Home</a></li>
+                    <li class="nav-item me-0 me-lg-3"><a class="nav-link text-white" href="#tools">Tools</a></li>
+                    <li class="nav-item me-0 me-lg-3"><a class="nav-link text-white" href="#feature">Feature</a></li>
+                    <li class="nav-item me-0 me-lg-3"><a class="nav-link text-white" href="#technology">Technology</a></li>
+                    <li class="nav-item me-0 me-lg-3"><a class="nav-link text-white" href="#install">Install</a></li>
+                    <li class="nav-item me-0 me-lg-3"><a class="nav-link text-white" href="#awards">Awards</a></li>
+                    <li class="nav-item me-0 me-lg-3"><a class="nav-link text-white" href="#faq">FAQ</a></li>
                 </ul>
-                <ul class="navbar-nav ms-auto align-items-center">
-                    <li class="nav-item me-lg-3"><a class="nav-link text-white text-center" href="#">Sign in</a></li>
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item me-lg-3"><a href="#" class="nav-link text-white text-center" >Sign in</a></li>
                     <li class="nav-item">
-                        <a class="btn btn-sm bg-white" href="#">
+                        <a href="#" class="btn btn-lg bg-white fw-semibold fs-6" >
                             <i class="bi-basket me-1"></i> Buy now
                         </a>
                     </li>
@@ -43,7 +43,7 @@
     </nav>
     
     <!-- --- Hero Section --- -->
-    <header class="hero-section pt-5 pb-5 bg-primary">
+    <header class="hero-section pt-5 pb-5 bg-primary" id="hero">
         <div class="container pt-5">
             <div class="row align-items-center justify-content-between">
                 
@@ -115,7 +115,7 @@
     </header>
 
     <!-- --- Tools Section --- -->
-    <section class="tools-section pt-lg-5 pt-md-0">
+    <section class="tools-section pt-lg-5 pt-md-0" id="tools">
         <div class="container py-5">
             <div class="row align-items-center">
 
@@ -178,7 +178,7 @@
     </section>
 
     <!-- --- Features Section --- -->
-    <section class="features-section pt-md-0">
+    <section class="features-section pt-md-0" id="feature">
         <div class="container py-lg-5">
             <div class="row align-items-center justify-content-between">
 
@@ -209,7 +209,7 @@
 
     <!-- --- Technology Section --- -->
 
-    <section class="technology-section py-5">
+    <section class="technology-section py-5" id="technology">
         <div class="container py-5">
             <div class="row align-items-center">
 
@@ -281,7 +281,7 @@
     </section>
 
     <!-- --- Install Section --- -->
-    <section class="install-section pt-md-0">
+    <section class="install-section pt-md-0" id="install">
         <div class="container py-lg-5">
             <div class="row align-items-center justify-content-between">
 
@@ -321,7 +321,7 @@
     </section>
 
     <!-- --- Awards Section --- -->
-    <section class="awards-section py-5 bg-light overflow-hidden">
+    <section class="awards-section py-5 bg-light overflow-hidden" id="awards">
         <div class="container py-5">
 
             <!-- --- TXT --- -->
@@ -403,7 +403,7 @@
     </section>
     
     <!-- --- FAQ Section --- -->
-    <section class="faq-section py-5 overflow-hidden">
+    <section class="faq-section py-5 overflow-hidden" id="faq">
         <div class="container py-5 align-items-center text-center">
             <h6 class="display-6 fw-bold mb-4">Helpful answers</h6>
             <p class="lead mb-5">Start building fast, beautiful, and modern-looking websites in no time.</p>

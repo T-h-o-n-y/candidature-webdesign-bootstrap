@@ -2,6 +2,24 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../scss/main.scss';
 import * as bootstrap from 'bootstrap';
 
+// Scroll Nav Bar
+
+const SCROLL_THRESHOLD = 100;
+const mainNav = document.getElementById('mainNav');
+
+if (mainNav) {
+    const updateNavOnScroll = () => {
+        if (window.scrollY > SCROLL_THRESHOLD) {
+            mainNav.classList.add('nav-scroll-shadow');
+        } else {
+            mainNav.classList.remove('nav-scroll-shadow');
+        }
+    };
+    updateNavOnScroll();
+    window.addEventListener('scroll', updateNavOnScroll);
+}
+
+
 // Swiper Awards
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -32,21 +50,3 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
-
-// Scroll Nav Bar
-
-const SCROLL_THRESHOLD = 100;
-const mainNav = document.getElementById('mainNav');
-
-if (mainNav) {
-    const updateNavOnScroll = () => {
-        if (window.scrollY > SCROLL_THRESHOLD) {
-            mainNav.classList.add('nav-scroll-shadow');
-        } else {
-            mainNav.classList.remove('nav-scroll-shadow');
-        }
-    };
-    updateNavOnScroll();
-    window.addEventListener('scroll', updateNavOnScroll);
-}
-

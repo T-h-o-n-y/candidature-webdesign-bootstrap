@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>candidature-webdesign-bootstrap</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
@@ -33,7 +36,7 @@
                 <ul class="navbar-nav align-items-center">
                     <li class="nav-item me-lg-3"><a href="#" class="nav-link text-white text-center" >Sign in</a></li>
                     <li class="nav-item">
-                        <a href="#" class="btn btn-lg bg-white fw-semibold fs-6" >
+                        <a href="#" class="btn btn-lg bg-white fw-semibold fs-6 btn-outline-primary" >
                             <i class="bi-basket me-1"></i> Buy now
                         </a>
                     </li>
@@ -49,7 +52,7 @@
                 
                 <!-- --- Col 01 TXT --- -->
                 <div class="col-lg-5 col-md-12 text-white">
-                    <h1 class="display-3 fw-bold mb-4">Development done right</h1>
+                    <h1 class="display-5 mb-4 fw-medium">Development done right</h1>
                     <p class="lead mb-5">Build a beautiful, modern website with flexible components built from scratch.</p>
                     <a class="btn btn-light btn-lg px-4 py-3 mb-5" href="#">Get started <i class="bi bi-plus ms-2"></i></a>
 
@@ -78,7 +81,7 @@
                                 <span class="badge bg-success float-end">Active</span>
                              </div>
                             <small class="d-block mt-4 mb-1 text-uppercase">Card Number</small>
-                            <h4 class="fw-bold mb-4">4358 - 7421 - 9256 - 6682</h4>
+                            <h4 class="mb-4">4358 - 7421 - 9256 - 6682</h4>
                             <div class="d-flex small">
                                 <div class="col-lg-6">
                                     <small class="d-block text-uppercase">Name</small>
@@ -167,14 +170,25 @@
 
                 <!-- --- Col 2 Txt --- -->
                 <div class="col-lg-5 offset-lg-1 col-md-12 my-md-5">
-                    <span class="badge bg-warning-subtle text-warning-emphasis rounded-pill px-3 py-2 fw-bold mb-3">Tools</span>
-                    <h6 class="display-6 fw-bold mb-4">We build for designers and developers</h6>
-                    <p class="lead text-body-secondary mb-4">
+                    <span class="badge bg-warning rounded-pill px-3 py-2 fw-bold mb-3">Tools</span>
+                    <h2 class="fw-semibold fs-3 mb-4">We build for designers and developers</h2>
+                    <p class="text-body-secondary mb-4">
                         Get components and examples, including tons of variables that will help you grow your business.
                     </p>
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- --- Ariane --- -->
+    <section class="section-separator position-relative mx-auto">
+            <svg class="dotted-curve-bg" viewBox="0 0 1000 500" preserveAspectRatio="none">
+                <path d="M0,0 C250,200 750,0 1000,500"
+                      fill="none"
+                      stroke="#e3e7f0"
+                      stroke-width="5"
+                      stroke-dasharray="20 20"/>
+            </svg>
     </section>
 
     <!-- --- Features Section --- -->
@@ -184,13 +198,13 @@
 
                 <!-- --- Txt --- -->
                 <div class="col-lg-5 col-md-12 mb-5">
-                    <span class="badge bg-success-subtle text-success-emphasis rounded-pill px-3 py-2 fw-bold mb-3">Features</span>
-                    <h6 class="display-6 fw-bold mb-4">Get components and examples, including tons of variables that will help you grow your business.</h6>
+                    <span class="badge bg-success rounded-pill px-3 py-2 fw-bold mb-3 text-white">Features</span>
+                    <p class="fs-5 fw-semibold mb-4">Get components and examples, including tons of variables that will help you grow your business.</p>
                     <ul class="list-unstyled">
-                        <li class="lead text-success">
+                        <li class="text-success mb-2">
                             <i class="bi bi-check-square-fill me-3"></i>Perfect for modern startups
                         </li>
-                        <li class="lead text-success">
+                        <li class="text-success">
                             <i class="bi bi-check-square-fill me-3"></i>Fully customizable and scalable
                         </li>
                     </ul>
@@ -207,6 +221,17 @@
         </div>
     </section>
 
+    <!-- --- Ariane --- -->
+    <section class="section-separator-reverse position-relative mx-auto">
+            <svg class="dotted-curve-bg" viewBox="0 0 1000 500" preserveAspectRatio="none">
+                <path d="M0,0 C250,200 750,0 1000,500"
+                      fill="none"
+                      stroke="#e3e7f0"
+                      stroke-width="5"
+                      stroke-dasharray="20 20"/>
+            </svg>
+    </section>
+
     <!-- --- Technology Section --- -->
 
     <section class="technology-section py-5" id="technology">
@@ -217,11 +242,11 @@
                 <div class="col-lg-6 col-md-12 mb-5 mb-lg-0 row align-items-center">
 
                     <!-- --- Card 1/2 --- -->
-                    <div class="col-6">
+                    <div class="col-12 col-md-6 mb-4 mb-lg-0">
                         <div class="col-12 card shadow-lg">
                             <img src="assets/img/person_03.jpg" class="card top" alt="Jimmy Hendrix">
                             <div class="d-flex justify-content-between p-4 align-items-center">
-                                <span class="badge bg-warning-subtle text-warning-emphasis rounded-circle p-3 fw-bold me-2">JH</span>
+                                <span class="badge bg-warning rounded-circle p-3 fw-bold me-2">JH</span>
                                 <span class="fw-bold">Jimmy Hendrix</span>
                                 <i class="bi bi-heart text-black"></i>
                             </div>
@@ -236,7 +261,7 @@
                     </div>
 
                     <!-- --- Card 2/2 --- -->
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <div class="card p-5 rounded-3 shadow mb-3 align-items-center text-center">
                             <img src="assets/img/logos/airbnb.svg" style="height: 40px;" alt="Airbnb Logo" class="me-3">
                             <div class="star-rating m-3">
@@ -270,14 +295,25 @@
                 <!-- --- Txt --- -->
                 <div class="col-lg-5 offset-lg-1 col-md-12">
                     <span class="badge bg-primary text-white rounded-pill px-3 py-2 fw-bold mb-3">Technology</span>
-                    <h2 class="display-5 fw-bold mb-4">We use the latest technologies on the market</h2>
-                    <p class="lead text-body-secondary mb-4">
+                    <h2 class="fw-semibold mb-4">We use the latest technologies on the market</h2>
+                    <p class="text-body-secondary mb-4">
                         Get components and examples, including tons of variables that will help you grow your business.
                     </p>
                     <a href="#" class="text-decoration-none fw-bold text-primary border-bottom border-primary border-2 pb-1">See case studies</a>
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- --- Ariane --- -->
+    <section class="section-separator position-relative mx-auto">
+            <svg class="dotted-curve-bg" viewBox="0 0 1000 500" preserveAspectRatio="none">
+                <path d="M0,0 C250,200 750,0 1000,500"
+                      fill="none"
+                      stroke="#e3e7f0"
+                      stroke-width="5"
+                      stroke-dasharray="20 20"/>
+            </svg>
     </section>
 
     <!-- --- Install Section --- -->
@@ -288,7 +324,7 @@
                 <!-- --- Txt --- -->
                 <div class="col-lg-5 col-md-12 mb-md-5">
                     <span class="badge bg-warning text-white rounded-pill px-3 py-2 fw-bold mb-3">Easy to install</span>
-                    <h6 class="display-6 fw-bold mb-4">Download, install and run.</h6>
+                    <h2 class="fw-semibold mb-4">Download, install and run.</h2>
                     <p class="lead">Get components and examples, including tons of variables that will help you grow your business.</p>
                     <a href="#"><img src="assets/img/logos/appstore.svg" alt="Logo App Store" class="me-3 mb-1 mt-5" style="height: 60px;"></a>
                     <a href="#"><img src="assets/img/logos/googleplay.svg" alt="Logo Google Play" class="me-3 mb-1 mt-5" style="height: 60px;"></a>
@@ -310,11 +346,11 @@
         <div class="container p-5 p-md-5 p-sm-0 bg-dark rounded-top-left-3 diagonal-rounded">
             <div class="row align-items-center justify-content-between p-5">
                 <div class="col-lg-6 col-md-12 text-white">
-                    <h2>Infinite solutions</h2>
+                    <h3>Infinite solutions</h3>
                     <p>Intuitive markup, powerful and lightning-fast build tools, everything you need to turn your ideas into incredible products.</p>
                 </div>
                 <div class="col-lg-4 col-md-12 justify-content-start justify-content-lg-end d-flex">
-                    <a href="#" class="btn btn-light btn-lg px-4 py-3 mt-lg-0 mt-md-5">Learn more<i class="bi bi-arrow-right-short"></i></a>
+                    <a href="#" class="btn btn-light btn-lg px-4 py-3 mt-lg-0 mt-md-5">Learn more<i class="bi bi-arrow-right-short ms-4"></i></a>
                 </div>
             </div>
         </div>
@@ -405,7 +441,7 @@
     <!-- --- FAQ Section --- -->
     <section class="faq-section py-5 overflow-hidden" id="faq">
         <div class="container py-5 align-items-center text-center">
-            <h6 class="display-6 fw-bold mb-4">Helpful answers</h6>
+            <h2 class="display-6 fw-bold mb-4">Helpful answers</h2>
             <p class="lead mb-5">Start building fast, beautiful, and modern-looking websites in no time.</p>
 
             <div class="row g-4"> 
@@ -505,14 +541,13 @@
                 <!-- --- CTA --- -->
                 <h6 class="fw-bold lead mb-4 mt-5">I want to start a new project</h6>
                 <div class="row align-items-center justify-content-center">
-                    <a href="#" class="btn btn-primary btn-lg px-4 py-3 col-8 col-lg-2 mb-3 mb-lg-0">
+                    <a href="#" class="btn btn-primary btn-lg px-4 py-3 col-8 col-lg-2 mb-3 mb-lg-0 text-white">
                         Buy more<i class="bi bi-arrow-right-short ms-2"></i>
                     </a>
                     <a href="#" class="lead fw-semibold col-8 col-lg-2 text-decoration-none text-dark">
                         Learn more
                     </a>
                 </div>
-
             </div>
         </div>
     </section>
@@ -531,7 +566,7 @@
                     <a href="#" class="btn btn-lg btn-light px-4 py-3">
                         <i class="bi bi-journal-bookmark me-2"></i>Documentation
                     </a>
-                    <a href="#" class="btn btn-primary btn-lg px-4 py-3 shadow-sm">
+                    <a href="#" class="btn btn-primary btn-lg px-4 py-3 shadow-sm text-white">
                         Purchase now
                     </a>
                 </div>

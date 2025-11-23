@@ -1,12 +1,19 @@
 // scss/_custom-styles.scss
 
+body {
+    letter-spacing: $custom-body-letter-spacing; 
+}
+    h1, h2, h3, h4, h5, h6 {
+    letter-spacing: $custom-heading-letter-spacing;
+}
+
 .custom-navbar {
-    background-color: rgba(0, 123, 255, 1);
+    background-color: rgba(3, 138 , 255, 1);
     transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
 }
 
 .nav-scroll-shadow {
-    background-color: rgba(0, 123, 255, 0.8) !important; 
+    background-color: rgba(3, 138 , 255, 0.8) !important; 
     backdrop-filter: blur(8px);
 }
 
@@ -97,7 +104,18 @@
     background-color: var(--bs-warning);
 }
 
-// --- Features Section ---
+// --- Ariane ---
+
+.section-separator, .section-separator-reverse {
+    z-index: -1;
+    margin-top: -80px;
+    height: 150px; 
+    width: 30%
+}
+
+.section-separator-reverse {
+    transform: scaleX(-1);
+}
 
 // --- Technology Section ---
 

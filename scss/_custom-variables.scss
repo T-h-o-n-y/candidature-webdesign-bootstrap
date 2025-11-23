@@ -6,6 +6,30 @@
 
 // Personalization
 
+$font-family-google-sans: 'Google Sans Flex', sans-serif;
+$font-family-base: $font-family-google-sans; 
+$headings-font-family: $font-family-google-sans;
+
+$custom-body-letter-spacing: 0.05em; 
+$custom-heading-letter-spacing: 0.05em;
+
+$line-height-base: 1.8;
+$headings-line-height: 1.5;
+
+$h1-font-weight: 400;
+
+$primary: #038aff;
+$success: #5ccaa7;
+$warning: #febd3d;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "warning": $warning,
+  "light": $light,
+  "dark": $dark,
+);
 
 // Import rest of Bootstrap
 @import "bootstrap/scss/variables-dark"; 

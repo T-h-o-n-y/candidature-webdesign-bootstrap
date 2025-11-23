@@ -108,14 +108,17 @@ body {
 
 // --- Ariane ---
 
-.section-separator, .section-separator-reverse {
+.ariane-separator, .ariane-separator-reverse {
     z-index: -1;
     margin-top: -80px;
     height: 150px; 
-    width: 30%
+    width: 30%;
+    stroke-width: 8;
+    stroke-dasharray: 20 20;
 }
 
-.section-separator-reverse {
+.ariane-separator-reverse {
+    margin-top: 0px;
     transform: scaleX(-1);
 }
 
@@ -245,7 +248,15 @@ body {
         padding: 0.5rem 0;
     }
 
-        .illustration-tools {
+    .illustration-tools {
         position: relative;
-        }
+    }
+
+    .ariane-separator, .ariane-separator-reverse {
+        margin-top: 0px;
+        height: 150px; 
+        stroke-width: 12;
+        stroke-dasharray: 30 30;
+        width: 40%;
+    }
 }

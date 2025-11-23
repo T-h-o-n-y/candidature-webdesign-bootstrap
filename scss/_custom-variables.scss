@@ -6,34 +6,46 @@
 
 // Personalization
 
-$font-family-google-sans: 'Google Sans Flex', sans-serif;
-$font-family-base: $font-family-google-sans; 
-$headings-font-family: $font-family-google-sans;
+    // Font
 
-$custom-body-letter-spacing: 0.05em; 
-$custom-heading-letter-spacing: 0.05em;
+        // Family
+        $font-family-google-sans: 'Google Sans Flex', sans-serif;
+        $font-family-base: $font-family-google-sans; 
+        $headings-font-family: $font-family-google-sans;
 
-$line-height-base: 1.8;
-$headings-line-height: 1.5;
+        // Font Spacing
+        $custom-body-letter-spacing: 0.05em; 
+        $custom-heading-letter-spacing: 0.05em;
 
-$h1-font-weight: 400;
+        $line-height-base: 1.8;
+        $headings-line-height: 1.5;
 
-$noir-thematic: #142c5c;
-$primary: #038aff;
-$dark: #161348;
-$success: #5ccaa7;
-$warning: #febd3d;
+        // Font size
+        $font-sizes: map-merge(
+          $font-sizes,
+          (
+            7: $font-size-base * 0.9,
+            8: $font-size-base * 0.8
+          )
+        );
 
-$body-color: $noir-thematic;
+    // Colors
+    $noir-thematic: #142c5c;
+    $primary: #038aff;
+    $dark: #161348;
+    $success: #5ccaa7;
+    $warning: #febd3d;
 
-$theme-colors: (
-  "primary": $primary,
-  "secondary": $secondary,
-  "success": $success,
-  "warning": $warning,
-  "light": $light,
-  "dark": $dark,
-);
+    $body-color: $noir-thematic;
+
+    $theme-colors: (
+      "primary": $primary,
+      "secondary": $secondary,
+      "success": $success,
+      "warning": $warning,
+      "light": $light,
+      "dark": $dark,
+    );
 
 // Import rest of Bootstrap
 @import "bootstrap/scss/variables-dark"; 

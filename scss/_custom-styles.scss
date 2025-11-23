@@ -7,6 +7,8 @@ body {
     letter-spacing: $custom-heading-letter-spacing;
 }
 
+// --- Nav --
+
 .custom-navbar {
     background-color: rgba(3, 138 , 255, 1);
     transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
@@ -26,6 +28,23 @@ body {
     &:focus,
     &:active {
         box-shadow: none !important;
+    }
+}
+
+// --- Hover --
+
+.hover-scale {
+    transition: transform 0.3s ease-in-out; 
+    transform: scale(1);
+    transform-origin: center center;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.hover-colors {
+    &:hover {
+        color: $primary;
     }
 }
 
@@ -150,6 +169,7 @@ body {
 }
 
 // --- Infinite Section ---
+
 .diagonal-rounded{
     border-top-right-radius: 5rem;
     border-bottom-left-radius: 5rem;
@@ -176,14 +196,16 @@ body {
     overflow: visible;
 }
 
-.awards-custom{
-    transform: scale(1);
-    transition: all .75s ease;
-}
+// .awards-custom{
+//     transform: scale(1);
+//     transition: all .75s ease;
+// }
 
-.awards-custom:hover{
-    transform: scale(1.1);
-}
+// .awards-custom:hover{
+//     transform: scale(1.1);
+// }
+
+
 
 // --- FAQ Section ---
 

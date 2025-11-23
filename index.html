@@ -51,14 +51,17 @@
             <div class="row align-items-center justify-content-between">
                 
                 <!-- --- Col 01 TXT --- -->
-                <div class="col-lg-5 col-md-12 text-white">
-                    <h1 class="display-5 mb-4 fw-medium">Development done right</h1>
-                    <p class="lead mb-5">Build a beautiful, modern website with flexible components built from scratch.</p>
-                    <a class="btn btn-light btn-lg px-4 py-3 mb-5 fw-semibold" href="#">Get started <i class="bi bi-plus ms-2 fw-bold"></i></a>
+                <div class="col-lg-6 col-md-12 text-white">
 
-                    <div class="trusted-by-section align-items-center">
+                    <div class="col-12 col-md-8">
+                        <h1 class="display-5 mb-4 fw-medium">Development done right</h1>
+                        <p class="lead mb-5">Build a beautiful, modern website with flexible components built from scratch.</p>
+                        <a class="btn btn-light btn-lg px-4 py-3 mb-5 fw-semibold" href="#">Get started <i class="bi bi-plus ms-2 fw-bold"></i></a>
+                    </div>
+
+                    <div class="col-10 align-items-center">
                         <small class="d-block me-3 mb-3">Trusted by:</small>
-                        <div class="d-flex align-items-center logo-stack">
+                        <div class="d-flex align-items-between justify-content-between logo-stack">
                             <img src="assets/img/logos/google-white.svg" alt="Logo Google" class="me-3" style="height: 25px;">
                             <img src="assets/img/logos/spotify-white.svg" alt="Logo Spotify" class="me-3" style="height: 25px;">
                             <img src="assets/img/logos/airbnb-white.svg" alt="Logo Airbnb" class="me-3" style="height: 25px;">
@@ -160,7 +163,7 @@
                     </div>
 
                     <!-- --- Img --- -->
-                    <div class="illustration-tools col-lg-8 col-md-12">
+                    <div class="illustration-tools col-lg-8 col-md-12 hover-scale">
                         <img src="assets/img/img_01.jpg" class="img-fluid rounded-4 shadow-lg" alt="Équipe en réunion de projet">
                         <a href="#" class="btn btn-sm btn-light rounded-3 play-button-right px-3 py-2">
                         Play video <i class="bi bi-play"></i> 
@@ -209,7 +212,7 @@
                 </div>
 
                 <!-- --- Img --- -->
-                <div class="illustration-features position-relative col-lg-6 col-md-12">
+                <div class="illustration-features position-relative col-lg-6 col-md-12 hover-scale">
                     <img src="assets/img/img_02.jpg" class="img-fluid rounded-4 shadow-lg" alt="Équipe en réunion de projet">
                     <a href="#" class="btn btn-sm btn-light rounded-3 play-button-left px-3 py-2">
                     Play video <i class="bi bi-play"></i> 
@@ -280,9 +283,9 @@
                             </div>
                             <hr class="hr-fade mt-4">
                             <div class="d-flex justify-content-around  mt-3 text-muted px-2">
-                                <i class="bi bi-paperclip mx-3 fs-5"></i>
-                                <i class="bi bi-eye mx-3 fs-5"></i>
-                                <i class="bi bi-heart mx-3 fs-5"></i>
+                                <i class="bi bi-paperclip mx-3 fs-5 hover-colors"></i>
+                                <i class="bi bi-eye mx-3 fs-5 hover-colors"></i>
+                                <i class="bi bi-heart mx-3 fs-5 hover-colors"></i>
                             </div>
                         </div>
                     </div>
@@ -320,12 +323,12 @@
                     <span class="badge bg-warning text-white rounded-pill px-3 py-2 fw-bold mb-3">Easy to install</span>
                     <h2 class="fw-semibold mb-4">Download, install and run.</h2>
                     <p class="lead">Get components and examples, including tons of variables that will help you grow your business.</p>
-                    <a href="#"><img src="assets/img/logos/appstore.svg" alt="Logo App Store" class="me-3 mb-1 mt-3" style="height: 60px;"></a>
-                    <a href="#"><img src="assets/img/logos/googleplay.svg" alt="Logo Google Play" class="me-3 mb-1 mt-3" style="height: 60px;"></a>
+                    <a href="#"><img src="assets/img/logos/appstore.svg" alt="Logo App Store" class="me-3 mb-1 mt-3 hover-scale" style="height: 60px;"></a>
+                    <a href="#"><img src="assets/img/logos/googleplay.svg" alt="Logo Google Play" class="me-3 mb-1 mt-3 hover-scale" style="height: 60px;"></a>
                 </div>
 
                 <!-- --- Img --- -->
-                <div class="illustration-features position-relative col-lg-6 col-md-12">
+                <div class="illustration-features position-relative col-lg-6 col-md-12 hover-scale">
                     <img src="assets/img/img_03.jpg" class="img-fluid rounded-4 shadow-lg" alt="Équipe en réunion de projet">
                     <a href="#" class="btn btn-sm btn-light rounded-3 play-button-left px-3 py-2">
                     Play video <i class="bi bi-play"></i> 
@@ -336,7 +339,7 @@
     </section>
 
     <!-- --- Infinite Section --- -->
-    <section class="infinite-section my-5">
+    <section class="infinite-section my-5 p-3">
         <div class="container p-5 p-md-5 p-sm-0 bg-dark rounded-top-left-3 diagonal-rounded">
             <div class="row align-items-center justify-content-between p-5">
                 <div class="col-lg-6 col-md-12 text-white">
@@ -351,7 +354,7 @@
     </section>
 
     <!-- --- Awards Section --- -->
-    <section class="awards-section py-5 pb-5 bg-light " id="awards">
+    <section class="awards-section py-5 pb-5 bg-light overflow-hidden" id="awards">
         <div class="container py-5">
 
             <!-- --- TXT --- -->
@@ -364,7 +367,7 @@
             <div class="swiper myAwardSwiper py-5" >
                 <div class="swiper-wrapper">
 
-                    <div class="swiper-slide awards-custom mt-lg-5">
+                    <div class="swiper-slide hover-scale mt-lg-5">
                         <div class="card shadow-sm p-5 text-center rounded-3">
                             <img src="assets/img/logos/airbnb.svg" alt="Airbnb" class="mb-3 mx-auto mt-2" style="height: 40px;">
                             <div class="mb-2 text-warning">
@@ -381,7 +384,7 @@
                         </div>
                     </div>
 
-                    <div class="swiper-slide awards-custom mb-lg-5">
+                    <div class="swiper-slide hover-scale mb-lg-5">
                         <div class="card shadow-sm p-5 text-center rounded-3">
                             <img src="assets/img/logos/amazon.svg" alt="Amazon" class="mb-3 mx-auto mt-2" style="height: 40px;">
                             <p class="small text-muted mb-4">They build modern looking websites easily using Tabs.</p>
@@ -391,7 +394,7 @@
                         </div>
                     </div>
 
-                    <div class="swiper-slide awards-custom mt-lg-5">
+                    <div class="swiper-slide hover-scale mt-lg-5">
                         <div class="card shadow-sm p-5 text-center rounded-3">
                             <div class="d-flex justify-content-center align-items-center mb-3">
                                 <img src="assets/img/logos/slack.svg" alt="Slack" style="height: 40px;">
@@ -403,7 +406,7 @@
                         </div>
                     </div>
 
-                    <div class="swiper-slide awards-custom mb-lg-5">
+                    <div class="swiper-slide hover-scale mb-lg-5">
                         <div class="card shadow-sm p-5 text-center rounded-3">
                             <img src="assets/img/logos/spotify.svg" alt="Spotify" class="mb-3 mx-auto mt-2" style="height: 40px;">
                             <div class="mb-2 text-warning">
@@ -420,7 +423,7 @@
                         </div>
                     </div>
 
-                    <div class="swiper-slide awards-custom mt-lg-5">
+                    <div class="swiper-slide hover-scale mt-lg-5">
                         <div class="card shadow-sm p-5 text-center rounded-3">
                             <img src="assets/img/logos/paypal.svg" alt="PayPal" class="mb-3 mx-auto mt-2" style="height: 40px;">
                             <p class="small text-muted mb-4">They build modern looking websites easily using Docker.</p>
@@ -583,10 +586,10 @@
                     </p>
 
                     <div class="d-flex gap-3 text-white-50 justify-content-center justify-content-lg-start">
-                        <a href="#" class="text-white-50 text-decoration-none"><i class="bi bi-globe"></i></a>
-                        <a href="#" class="text-white-50 text-decoration-none"><i class="bi bi-github"></i></a>
-                        <a href="#" class="text-white-50 text-decoration-none"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="text-white-50 text-decoration-none"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white-50 text-decoration-none"><i class="bi bi-globe hover-colors"></i></a>
+                        <a href="#" class="text-white-50 text-decoration-none"><i class="bi bi-github hover-colors"></i></a>
+                        <a href="#" class="text-white-50 text-decoration-none"><i class="bi bi-instagram hover-colors"></i></a>
+                        <a href="#" class="text-white-50 text-decoration-none"><i class="bi bi-facebook hover-colors"></i></a>
                     </div>
                 </div>
 

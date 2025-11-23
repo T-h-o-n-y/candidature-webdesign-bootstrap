@@ -10,7 +10,7 @@ This repository contains the technical web integration submission for the static
 
 > 💡 The project will be deployed on GitHub Pages.
 >
-> **Live Demo Link:** https://candidature-webdesign-bootstrap.netlify.app/
+> **Live Demo Link:** [candidature-webdesign-bootstrap.vercel.app](https://candidature-webdesign-bootstrap.vercel.app/)
 
 ---
 

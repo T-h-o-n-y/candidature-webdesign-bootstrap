@@ -8,19 +8,19 @@
 
     // Font
 
-        // Family
+        // Changing Family font
         $font-family-google-sans: 'Google Sans Flex', sans-serif;
         $font-family-base: $font-family-google-sans; 
         $headings-font-family: $font-family-google-sans;
 
-        // Font Spacing
+        // Changing Font Spacing
         $custom-body-letter-spacing: 0.05em; 
         $custom-heading-letter-spacing: 0.05em;
 
         $line-height-base: 1.8;
         $headings-line-height: 1.5;
 
-        // Font size
+        // Changing Font size
         $font-sizes: map-merge(
           $font-sizes,
           (
@@ -29,7 +29,7 @@
           )
         );
 
-    // Colors
+    // Changing theme's colors + adding personnal colors 
     $noir-thematic: #142c5c;
     $primary: #038aff;
     $dark: #161348;

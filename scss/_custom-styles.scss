@@ -132,8 +132,17 @@ body {
     margin-top: -80px;
     height: 150px; 
     width: 30%;
+}
+
+.ariane-separator path, .ariane-separator-reverse path {
     stroke-width: 8;
     stroke-dasharray: 20 20;
+    stroke-dashoffset: 1000;
+    transition: stroke-dashoffset 2s ease-in-out;
+}
+
+.ariane-separator.is-visible path, .ariane-separator-reverse.is-visible path {
+    stroke-dashoffset: 0;
 }
 
 .ariane-separator-reverse {
@@ -277,12 +286,11 @@ body {
 
         .ariane-separator, .ariane-separator-reverse {
             margin-top: 0px;
-            height: 150px; 
+            height: 80px; 
             stroke-width: 12;
             stroke-dasharray: 30 30;
             width: 40%;
         }
-
         .swiper{
         overflow: hidden;
         }
@@ -292,7 +300,7 @@ body {
     @media (max-width: 992px) { 
 
        .ariane-separator, .ariane-separator-reverse {
-           height: 80px; 
+           height: 120px; 
            stroke-width: 15;
            stroke-dasharray: 40 40;
        }

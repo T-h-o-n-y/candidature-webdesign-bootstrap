@@ -50,3 +50,23 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+// Ariane Animation
+
+const separatorObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            separatorObserver.unobserve(entry.target);
+        }
+    });
+}, {
+    rootMargin: '0px',
+    threshold: 0.1 
+});
+
+
+document.querySelectorAll('.ariane-separator, .ariane-separator-reverse')
+    .forEach(separator => {
+        separatorObserver.observe(separator);
+    });

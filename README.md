@@ -10,7 +10,7 @@ This repository contains the technical web integration submission for the static
 
 > 💡 The project will be deployed on GitHub Pages.
 >
-> **Live Demo Link:** 
+> **Live Demo Link:** https://candidature-webdesign-bootstrap.netlify.app/
 
 ---
 
@@ -52,9 +52,9 @@ To compile and optimize the final code (minified JS/CSS), use the build command 
 
 --------------
 
-### 🧐 Mock-up Critical Analysis
+## 🧐 Mock-up Critical Analysis
 
-#### 1. What Do You Find Good/Bad in This Mock-up?
+### 1. What Do You Find Good/Bad in This Mock-up?
 
 | Category | Strengths (The Good) | Weaknesses (The Bad) |
 | :--- | :--- | :--- |
@@ -66,7 +66,7 @@ To compile and optimize the final code (minified JS/CSS), use the build command 
 
 ***
 
-#### 2. What Would You Improve?
+### 2. What Would You Improve?
 
 To enhance the user experience and brand fidelity:
 
@@ -76,7 +76,7 @@ To enhance the user experience and brand fidelity:
 
 ***
 
-#### 3. What Would You Change? (Alternative Perspective)
+### 3. What Would You Change? (Alternative Perspective)
 
 This section details structural and visual adjustments to optimize the final product:
 

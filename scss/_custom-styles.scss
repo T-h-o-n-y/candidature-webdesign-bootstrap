@@ -29,6 +29,8 @@ body {
     }
 }
 
+// --- Hero Section ---
+
 .hero-section {
     position: relative;
     padding-bottom: 8rem !important;
@@ -85,7 +87,7 @@ body {
     top: 0;
  }
 
-.play-button-custom {
+.play-button-right {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -117,6 +119,14 @@ body {
     transform: scaleX(-1);
 }
 
+// --- Features Section ---
+
+.play-button-left {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
 // --- Technology Section ---
 
 .technology-section .hr-fade {
@@ -143,10 +153,10 @@ body {
 }
 
 // --- Awards Section ---
+
 .awards-section {
     position: relative;
-    padding-bottom: 8rem !important;
-    overflow: hidden; 
+    // padding-bottom: 8rem !important;
     &::after {
         content: '';
         position: absolute;
@@ -157,6 +167,19 @@ body {
         background-color: var(--bs-white);
         clip-path: polygon(0 100%, 100% 100%, 100% 0);
     }
+}
+
+.swiper{
+    overflow: visible;
+}
+
+.awards-custom{
+    transform: scale(1);
+    transition: all .75s ease;
+}
+
+.awards-custom:hover{
+    transform: scale(1.1);
 }
 
 // --- FAQ Section ---

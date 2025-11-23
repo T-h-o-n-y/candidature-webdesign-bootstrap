@@ -18,9 +18,13 @@ $headings-line-height: 1.5;
 
 $h1-font-weight: 400;
 
+$noir-thematic: #142c5c;
 $primary: #038aff;
+$dark: #161348;
 $success: #5ccaa7;
 $warning: #febd3d;
+
+$body-color: $noir-thematic;
 
 $theme-colors: (
   "primary": $primary,

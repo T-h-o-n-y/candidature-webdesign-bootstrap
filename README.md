@@ -10,11 +10,13 @@ This repository contains the technical web integration submission for the static
 
 > 💡 The project will be deployed on GitHub Pages.
 >
-> **Live Demo Link:** [INSERT DEPLOYED WEBSITE LINK HERE]
+> **Live Demo Link:** 
 
 ---
 
 ## 🛠️ Technologies & Tools
+
+| Category | Tool | Role in the Project |
 | :--- | :--- | :--- |
 | **Framework** | Bootstrap 5.3 | Core grid system and component library. |
 | **Compiler** | SCSS (Dart Sass) | Framework customization and complex style management. |
